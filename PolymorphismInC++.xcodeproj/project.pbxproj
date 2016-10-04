@@ -1,0 +1,293 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D498B8481DA45C2F0053F6CC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B8471DA45C2F0053F6CC /* main.cpp */; };
+		D498B85B1DA45C620053F6CC /* blueMen.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B84E1DA45C620053F6CC /* blueMen.cpp */; };
+		D498B85C1DA45C620053F6CC /* creature.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B8501DA45C620053F6CC /* creature.cpp */; };
+		D498B85D1DA45C620053F6CC /* gollum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B8521DA45C620053F6CC /* gollum.cpp */; };
+		D498B85E1DA45C620053F6CC /* harryPotter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B8541DA45C620053F6CC /* harryPotter.cpp */; };
+		D498B85F1DA45C620053F6CC /* makefile in Sources */ = {isa = PBXBuildFile; fileRef = D498B8561DA45C620053F6CC /* makefile */; };
+		D498B8601DA45C620053F6CC /* medusa.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B8571DA45C620053F6CC /* medusa.cpp */; };
+		D498B8611DA45C620053F6CC /* reptilePeople.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D498B8591DA45C620053F6CC /* reptilePeople.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D498B8421DA45C2F0053F6CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D498B8441DA45C2F0053F6CC /* PolymorphismInC++ */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "PolymorphismInC++"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D498B8471DA45C2F0053F6CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D498B84E1DA45C620053F6CC /* blueMen.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = blueMen.cpp; sourceTree = "<group>"; };
+		D498B84F1DA45C620053F6CC /* blueMen.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = blueMen.hpp; sourceTree = "<group>"; };
+		D498B8501DA45C620053F6CC /* creature.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = creature.cpp; sourceTree = "<group>"; };
+		D498B8511DA45C620053F6CC /* creature.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = creature.hpp; sourceTree = "<group>"; };
+		D498B8521DA45C620053F6CC /* gollum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = gollum.cpp; sourceTree = "<group>"; };
+		D498B8531DA45C620053F6CC /* gollum.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = gollum.hpp; sourceTree = "<group>"; };
+		D498B8541DA45C620053F6CC /* harryPotter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = harryPotter.cpp; sourceTree = "<group>"; };
+		D498B8551DA45C620053F6CC /* harryPotter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = harryPotter.hpp; sourceTree = "<group>"; };
+		D498B8561DA45C620053F6CC /* makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = makefile; sourceTree = "<group>"; };
+		D498B8571DA45C620053F6CC /* medusa.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = medusa.cpp; sourceTree = "<group>"; };
+		D498B8581DA45C620053F6CC /* medusa.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = medusa.hpp; sourceTree = "<group>"; };
+		D498B8591DA45C620053F6CC /* reptilePeople.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = reptilePeople.cpp; sourceTree = "<group>"; };
+		D498B85A1DA45C620053F6CC /* reptilePeople.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = reptilePeople.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D498B8411DA45C2F0053F6CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D498B83B1DA45C2F0053F6CC = {
+			isa = PBXGroup;
+			children = (
+				D498B8461DA45C2F0053F6CC /* PolymorphismInC++ */,
+				D498B8451DA45C2F0053F6CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D498B8451DA45C2F0053F6CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D498B8441DA45C2F0053F6CC /* PolymorphismInC++ */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D498B8461DA45C2F0053F6CC /* PolymorphismInC++ */ = {
+			isa = PBXGroup;
+			children = (
+				D498B84E1DA45C620053F6CC /* blueMen.cpp */,
+				D498B84F1DA45C620053F6CC /* blueMen.hpp */,
+				D498B8501DA45C620053F6CC /* creature.cpp */,
+				D498B8511DA45C620053F6CC /* creature.hpp */,
+				D498B8521DA45C620053F6CC /* gollum.cpp */,
+				D498B8531DA45C620053F6CC /* gollum.hpp */,
+				D498B8541DA45C620053F6CC /* harryPotter.cpp */,
+				D498B8551DA45C620053F6CC /* harryPotter.hpp */,
+				D498B8561DA45C620053F6CC /* makefile */,
+				D498B8571DA45C620053F6CC /* medusa.cpp */,
+				D498B8581DA45C620053F6CC /* medusa.hpp */,
+				D498B8591DA45C620053F6CC /* reptilePeople.cpp */,
+				D498B85A1DA45C620053F6CC /* reptilePeople.hpp */,
+				D498B8471DA45C2F0053F6CC /* main.cpp */,
+			);
+			path = "PolymorphismInC++";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D498B8431DA45C2F0053F6CC /* PolymorphismInC++ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D498B84B1DA45C2F0053F6CC /* Build configuration list for PBXNativeTarget "PolymorphismInC++" */;
+			buildPhases = (
+				D498B8401DA45C2F0053F6CC /* Sources */,
+				D498B8411DA45C2F0053F6CC /* Frameworks */,
+				D498B8421DA45C2F0053F6CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PolymorphismInC++";
+			productName = "PolymorphismInC++";
+			productReference = D498B8441DA45C2F0053F6CC /* PolymorphismInC++ */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D498B83C1DA45C2F0053F6CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Drew Wolfe";
+				TargetAttributes = {
+					D498B8431DA45C2F0053F6CC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = D498B83F1DA45C2F0053F6CC /* Build configuration list for PBXProject "PolymorphismInC++" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D498B83B1DA45C2F0053F6CC;
+			productRefGroup = D498B8451DA45C2F0053F6CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D498B8431DA45C2F0053F6CC /* PolymorphismInC++ */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D498B8401DA45C2F0053F6CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D498B85E1DA45C620053F6CC /* harryPotter.cpp in Sources */,
+				D498B85B1DA45C620053F6CC /* blueMen.cpp in Sources */,
+				D498B85F1DA45C620053F6CC /* makefile in Sources */,
+				D498B8601DA45C620053F6CC /* medusa.cpp in Sources */,
+				D498B8611DA45C620053F6CC /* reptilePeople.cpp in Sources */,
+				D498B8481DA45C2F0053F6CC /* main.cpp in Sources */,
+				D498B85C1DA45C620053F6CC /* creature.cpp in Sources */,
+				D498B85D1DA45C620053F6CC /* gollum.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D498B8491DA45C2F0053F6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D498B84A1DA45C2F0053F6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D498B84C1DA45C2F0053F6CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D498B84D1DA45C2F0053F6CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D498B83F1DA45C2F0053F6CC /* Build configuration list for PBXProject "PolymorphismInC++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D498B8491DA45C2F0053F6CC /* Debug */,
+				D498B84A1DA45C2F0053F6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D498B84B1DA45C2F0053F6CC /* Build configuration list for PBXNativeTarget "PolymorphismInC++" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D498B84C1DA45C2F0053F6CC /* Debug */,
+				D498B84D1DA45C2F0053F6CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D498B83C1DA45C2F0053F6CC /* Project object */;
+}
